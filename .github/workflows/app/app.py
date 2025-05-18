@@ -1,7 +1,9 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, g
 from flask_babel import Babel, gettext
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
+app.config['BABEL_DEFAULT_LOCALE'] = 'uk'
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = '../translations'
 babel = Babel(app)
 
 @babel.localeselector
