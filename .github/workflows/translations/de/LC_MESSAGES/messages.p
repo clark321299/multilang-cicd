@@ -1,0 +1,39 @@
+# German translations for multilang-cicd project.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2025-05-18\n"
+"PO-Revision-Date: 2025-05-18\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+#: app/app.py:13
+msgid "Hello World"
+msgstr "Hallo Welt"
+
+#: app/templates/index.html:4
+msgid "Multilingual Demo"
+msgstr "Mehrsprachige Demo"
+
+#: app/templates/index.html:9
+msgid "This is a demonstration of multilingual support in CI/CD pipeline"
+msgstr "Dies ist eine Demonstration der mehrsprachigen Unterstützung in der CI/CD-Pipeline"
+
+#: app/templates/index.html:12
+msgid "Change language"
+msgstr "Sprache ändern"
+
+#: app/templates/index.html:14
+msgid "Ukrainian"
+msgstr "Ukrainisch"
+
+#: app/templates/index.html:15
+msgid "English"
+msgstr "Englisch"
+
+#: app/templates/index.html:16
+msgid "German"
+msgstr "Deutsch"
